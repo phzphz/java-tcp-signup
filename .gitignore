@@ -1,0 +1,27 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+build/
+dist/
+*.class
+*.o
+*.exe
+*.log
+log.txt
+# Local credentials, databases, datasets and model weights
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite*
+saved_model/
+*.pt
+*.pth
+*.safetensors
