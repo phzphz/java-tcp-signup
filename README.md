@@ -1,5 +1,7 @@
 # Java TCP Signup System
 
+**Individual coursework · Semester 6 · COMP2221 Networks**
+
 Java TCP 报名系统：客户端命令、线程池服务端、容量限制和同步共享状态。
 
 A socket-programming coursework project. A server owns multiple signup lists, each with a fixed capacity. Clients request list totals, inspect members, or join a list. The server uses a 20-worker thread pool and synchronized handlers to protect list operations and log requests.
